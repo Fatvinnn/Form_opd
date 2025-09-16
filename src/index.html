@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Survei Kepuasan Layanan OPD 2025</title>
+  <meta name="description" content="Survei Kepuasan Layanan OPD 2025. Bantu tingkatkan kualitas pelayanan publik." />
+  <meta property="og:title" content="Survei Kepuasan Layanan OPD 2025" />
+  <meta property="og:description" content="Ikuti survei resmi untuk meningkatkan kualitas pelayanan." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#2563eb" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/custom.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="#" class="navbar-brand">
+      <img src="assets/ikk_logo.webp" alt="Logo" class="navbar-logo" height="36" style="vertical-align:middle;margin-right:10px;object-fit:contain;" />
+      Indeks Kualitas Kebijakan
+    </a>
+    <div class="nav-links">
+      <a href="#form">Form</a>
+      <a href="#info">Info</a>
+      <button id="themeToggle" type="button">Mode</button>
+      <a href="#form" class="accent">Isi Sekarang</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero wrapper">
+    <h1 class="hero-title">Survei Kepuasan Layanan</h1>
+    <p class="hero-lead">Bantu tingkatkan kualitas pelayanan dengan mengisi survei singkat ini (±3–5 menit).</p>
+    <a href="#form" class="button">Mulai</a>
+  </section>
+
+    <!-- Carousel Section -->
+  <section class="carousel-section wrapper">
+    <div class="carousel carousel-single" id="carousel">
+      <div class="carousel-track" id="carouselTrack">
+        <div class="carousel-slide"><img src="assets/banner.png" alt="Banner" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Info Section -->
+  <section id="info" class="section wrapper">
+    <div class="info-grid">
+      <div class="info-box">
+        <h5>Tujuan</h5>
+        <p>Mengukur persepsi kualitas pelayanan untuk perbaikan berkelanjutan.</p>
+      </div>
+      <div class="info-box">
+        <h5>Kerahasiaan</h5>
+        <p>Respon anonim digunakan hanya untuk analisis internal.</p>
+      </div>
+      <div class="info-box">
+        <h5>Kontak</h5>
+        <p>humas@kediri.go.id</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form Section -->
+  <section id="form" class="section wrapper">
+    <div class="form-shell">
+      <header>
+        <h2>Form Survei</h2>
+        <span id="statusBadge" class="badge load">Memuat</span>
+      </header>
+      <div class="inline-info">Mohon isi seluruh pertanyaan. Bidang bertanda * wajib diisi.</div>
+      <div class="form-frame-wrapper seamless-form">
+        <div class="form-overlay"></div>
+        <div id="sk" class="skeleton" aria-hidden="true"></div>
+        <div class="form-custom-header">
+          <div class="form-title">Survei Kepuasan Layanan Publik</div>
+          <div class="form-desc">Silakan isi form berikut sesuai pengalaman Anda.</div>
+        </div>
+        <iframe id="gformFrame" title="Form Survei" src="https://docs.google.com/forms/d/e/1FAIpQLSfpiiUhumRLSNBTe2HtbfHaA_nZP0lmEgyuCWhLYHZJoQCpXQ/viewform?embedded=true" loading="lazy"></iframe>
+        <div class="form-custom-footer">
+          <div class="form-footer-text">Terima kasih atas partisipasi Anda 🙏</div>
+        </div>
+      </div>
+      <p class="small mt-3 mb-0">Jika form tidak tampil, gunakan <a href="https://docs.google.com/forms/d/e/1FAIpQLSfpiiUhumRLSNBTe2HtbfHaA_nZP0lmEgyuCWhLYHZJoQCpXQ/viewform" target="_blank" rel="noopener">tautan alternatif</a>.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrapper small">&copy; 2025 Dinas OPD Kabupaten Kediri · <span class="brand-accent">Terima kasih atas partisipasi Anda</span></div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
